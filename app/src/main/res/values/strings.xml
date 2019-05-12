@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="tile_iv_description">tile</string>
+    <string name="action_start">Start new game</string>
+    <string name="game_status_starting" >Starting game...</string>
+</resources>

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/statusView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile_0_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_1_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_2_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_3_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_4_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_5_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_6_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+
+            <ImageView
+                android:id="@+id/tile_7_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tile_iv_description"
+                android:onClick="tileClick"
+                app:srcCompat="@drawable/ic_minesweeper_unknown" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/statusView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/game_status_starting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
